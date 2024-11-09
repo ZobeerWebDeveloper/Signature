@@ -1,0 +1,48 @@
+.signature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+  }
+  
+  .clear-button {
+    margin: 10px 0;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .clear-button:hover {
+    background-color: #d32f2f;
+  }
+  .signature-container {
+    margin-top: 50px; 
+  }
+  
+  .saved-signature {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .saved-signature h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .saved-signature img {
+    max-width: 100%;
+    max-height: 200px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
